@@ -1,5 +1,8 @@
 import type { Config } from "tailwindcss"
 
+
+const {fontFamily} = require("tailwindcss/defaultTheme")
+
 const config = {
   darkMode: ["class"],
   content: [
@@ -58,6 +61,10 @@ const config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      fontFamily:{
+        sans: ["var(--font-sans)", ...fontFamily.sans],
+        heading: ["var(--font-heading)", ...fontFamily.sans],
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
@@ -74,7 +81,7 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
 } satisfies Config
 
 export default config
