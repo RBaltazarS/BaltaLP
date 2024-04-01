@@ -4,7 +4,7 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils"
 
 
-export default function IntroSection() {
+export default function Intro() {
   return (
     <section id="intro" className="space-y-6 py-8  md:py-12 lg:py-32 relative">
 

@@ -2,9 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import {
   GitHubIcon,
-  InstagramIcon,
   LinkedInIcon,
-  YoutTubeIcon,
 } from '@/components/ui/social-icons';
 
 
@@ -36,7 +34,7 @@ export default function About(){
             </div>
           </div>
           <div className="lg:order-first lg:row-span-2 text-center md:text-start">
-            <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl">@Baltazar</h1>
+            <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl"><span className='text-primary'>@Baltazar</span></h1>
             <p className="mt-6 text-base text-muted-foreground">Sou um entusiasta do <span className="text-primary">Desenvolvimento Web</span>, pronto para mergulhar de cabeça em novos desafios e oportunidades. Com um sólido entendimento dos conceitos de programação e uma paixão pela criação de experiências digitais envolventes, familiarizado com tecnologias como <span className="text-primary">HTML, CSS, JavaScript, NextJS, React, React Native, Tailwind</span>.
             </p>
             <div className='mt-6 flex justify-center md:justify-start gap-6'>
