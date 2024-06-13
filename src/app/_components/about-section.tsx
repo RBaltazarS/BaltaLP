@@ -29,7 +29,7 @@ export default function About(){
               height={800}
               quality='95'
               priority={true}
-              className='aspect-square rotate-3 rounded-lg bg-zinc-100 dark:bg-zinc-800 object-cover'
+              className='aspect-square  rounded-lg bg-zinc-100 dark:bg-zinc-800 object-cover'
             />
             </div>
           </div>
